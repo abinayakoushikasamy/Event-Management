@@ -1,0 +1,46 @@
+.party-invitation {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .invitation-card {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .invitation-card h2 {
+    color: #333;
+  }
+  
+  .invitation-card p {
+    margin: 10px 0;
+    color: #666;
+  }
+  
+  .invitation-card button {
+    cursor: pointer;
+    background-color: hsl(174, 75%, 50%);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .invitation-card button:hover {
+    background-color: #45a049;
+  }
+  
+  .edit-form {
+    margin-bottom: 15px;
+  }
+  
+  .editing {
+    background-color: black;
+  }
+  

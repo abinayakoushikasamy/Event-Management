@@ -1,0 +1,60 @@
+
+/* AdminStyles.css */
+.admin-login-container {
+    background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.oyorooms.com%2Fblog%2Fwp-content%2Fuploads%2F2018%2F02%2Fevent.jpg&tbnid=2ltYOwf307FXJM&vet=12ahUKEwj7vreO5OmEAxUS9zgGHVgBB2UQMygGegQIARB9..i&imgrefurl=https%3A%2F%2Fwww.oyorooms.com%2Fblog%2Ftop-12-important-aspects-consider-planning-event%2F&docid=yNgNm1JnKGG-RM&w=1680&h=1050&q=event&ved=2ahUKEwj7vreO5OmEAxUS9zgGHVgBB2UQMygGegQIARB9');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    width:230vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .admin-form {
+    background: #101010cc;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .admin-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .admin-form label {
+    margin-bottom: 8px;
+  }
+  
+  .admin-form input {
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .admin-form button {
+    background-color: hsl(0, 0%, 5%);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .admin-form button:hover {
+    background-color:white;
+  }
+  
+  .admin-container {
+    /* Additional styles for elements with the class admin-container */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .admin-container h2 {
+    /* Styles for h2 elements within admin-container */
+    color: hsl(0, 27%, 4%);
+  }
+  

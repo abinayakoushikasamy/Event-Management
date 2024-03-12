@@ -1,0 +1,38 @@
+/* venuedetailsform.css */
+.venue-details-form {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .venue.form-container {
+    width: 45%;
+  }
+  
+  .venues-list {
+    width: 45%;
+  }
+  
+  .venue-item {
+    background-color: hsl(0, 6%, 7%);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .venue-item button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .venue-item button:hover {
+    background-color: #c0392b;
+  }
+  

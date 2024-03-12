@@ -1,0 +1,76 @@
+/* eventform1.css */
+
+.event-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .form-container {
+    width: 300px;
+    background-color: hsl(0, 5%, 4%);
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-container button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #2980b9;
+  }
+  
+  .events-list {
+    width: 300px;
+  }
+  
+  .event-item {
+    background-color: hsl(0, 3%, 6%);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .event-item button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  
+  .event-item button:hover {
+    background-color: #c0392b;
+  }
+  

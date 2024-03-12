@@ -1,0 +1,36 @@
+.admin-container {
+    display: flex;
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  .sidebar {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+    width: 200px;
+  }
+  
+  .main-content {
+    padding: 15px;
+    flex-grow: 1;
+  }
+  
+  /* Update the styles for the desired layout */
+  .navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
