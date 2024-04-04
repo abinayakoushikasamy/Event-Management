@@ -1,0 +1,51 @@
+.welcome-center {
+	/*background-image: url('https://images.pexels.com/photos/1563355/pexels-photo-1563355.jpeg?auto=compress&cs=tinysrgb&w=600');*/
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  }
+  
+  /* Other styles */
+  .welcome-center {
+	text-align: center;
+  }
+  
+  .welcome-btn {
+	margin-top: 20px;
+	padding:15%;
+	
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFD700;
+    /* color: #10151B;/ */
+	color:antiquewhite;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 10px; /* Add margin between buttons */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+  
+  /* .welcome-btn a {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #66fcf1;
+	color: #10151B;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 5px;
+  } */
+  
+  .welcome-btn a:hover {
+	background-color: #45a29e;
+  }
+  body {
+	margin: 0;
+	padding: 0;
+	background-image: url('https://res.cloudinary.com/dhogbmrpb/image/upload/v1711290510/Screenshot_2024-03-24_195741_r3grqa.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  }

@@ -1,0 +1,53 @@
+.admin-container {
+    display: flex;
+  }
+  
+  /* .navbar {
+    background-color: hsl(0, 21%, 92%);
+    color: white;
+    padding: 15px;
+    width: 100%;
+  }
+   */
+   .sidebar {
+    background-color: hwb(0 93% 3%);
+    color: #ebdddd;
+    padding: 15px;
+    width: 200px;
+  }
+  
+  .sidebar button {
+    display: block;
+    width: 100%;
+    padding: 10px; /* Adjust padding to control button size */
+    margin-bottom: 5px; /* Add spacing between buttons */
+    border: none;
+    background-color: #1a1919;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .sidebar button:hover {
+    background-color: #979494;
+    color:black;
+  }
+  
+  
+  .main-content {
+    padding: 15px;
+    flex-grow: 1;
+  }
+  
+  /* Update the styles for the desired layout */
+  .navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }

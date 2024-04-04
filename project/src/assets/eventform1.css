@@ -1,0 +1,54 @@
+.eventform1.container {
+  background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.bambooevents.co.in%2Fimages%2Fcategories_1.webp&tbnid=mafnrSFQgFTeDM&vet=12ahUKEwjlyeLahoiFAxX-nGMGHQCWAScQMygFegQIARBY..i&imgrefurl=https%3A%2F%2Fwww.bambooevents.co.in%2Fbirthday-party-event-management.php&docid=umvX1ZGVqKFViM&w=550&h=611&q=birthday%20events%20function&ved=2ahUKEwjlyeLahoiFAxX-nGMGHQCWAScQMygFegQIARBY');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.form-container input {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-container button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+.event-list {
+  list-style: none;
+  padding: 0;
+}
+
+.event-list li {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.event-list button {
+  margin-left: 5px;
+}
